@@ -1,0 +1,44 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "dev tools to compile scss",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "@rollup/stream": "^0.1.0",
+    "autoprefixer": "^9.7.3",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.26.7",
+    "foundation-apps": "^1.2.0",
+    "gulp": "^4.0.2",
+    "gulp-better-rollup": "^4.0.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-env": "^0.4.0",
+    "gulp-file": "^0.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "path": "^0.12.7",
+    "rollup": "^1.27.14",
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "tailwindcss": "^1.1.4"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "esm": "^3.2.25",
+    "gulp-sourcemaps": "^2.6.5",
+    "rollup-stream": "^1.24.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "set NODE_ENV=development && gulp",
+    "build": "set NODE_ENV=production && gulp"
+  }
+}
