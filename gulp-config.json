@@ -1,0 +1,33 @@
+{
+  "project": "",
+  "projectId": "",
+  "srcBase": "./src",
+  "buildBase": "./build",
+  "scss": {
+    "src": [
+      "/scss/**/*.scss"
+    ],
+    "dest": "/css",
+    "watch": [ "/scss/**/*.scss" ]
+  },
+  "pcss": {
+    "src": [
+      "/pcss/**/*.css"
+    ],
+    "dest": "/css",
+    "watch": [ "/pcss/**/*.css" ]
+  },
+  "staticHtml": {
+    "src": [
+      "/**/*.html"
+    ],
+    "dest": "/",
+    "watch": [ "./build/**/*.html" ]
+  },
+  "server": {
+    "localSrc": [
+      "./build/"
+    ],
+    "localIndexFile": "index.html"
+  }
+}
